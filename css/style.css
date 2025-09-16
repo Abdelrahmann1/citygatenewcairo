@@ -7,12 +7,15 @@
 }
 
 :root {
-  --primary: #201747;           /* Your brand primary color */
-  --secondary: #CB9C6A;         /* Golden accent - perfect contrast with navy */
+  --primary: #201747;
+  /* Your brand primary color */
+  --secondary: #CB9C6A;
+  /* Golden accent - perfect contrast with navy */
   --text-light: #ffffff;
   --text-muted: #cccccc;
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  --gradient: linear-gradient(90deg, #CB9C6A, #CB9C6A); /* Warm gold-orange gradient */
+  --gradient: linear-gradient(90deg, #CB9C6A, #CB9C6A);
+  /* Warm gold-orange gradient */
   --dark: #CB9C6A;
   --light: #ffffff;
   --gold: #CB9C6A;
@@ -65,15 +68,16 @@ body {
   }
 }
 
-.modal-body
-{
+.modal-body {
   padding: 0 !important;
 }
-.close-modal{
+
+.close-modal {
   position: absolute;
-  top:6%;
-  left:4%;
+  top: 6%;
+  left: 4%;
 }
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -297,7 +301,7 @@ section {
   max-width: 1200px;
   margin: 0 auto;
   height: 10%;
-  
+
 }
 
 .section-title {
@@ -712,7 +716,7 @@ footer {
 
   .hero p {
     font-size: 1rem;
-    
+
   }
 
   .cta-button {
@@ -884,11 +888,12 @@ img {
   opacity: 0.8;
   transform: scale(1.1);
 }
+
 .highlight-box {
   background: #f9f9f9;
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
   margin: 30px auto;
   max-width: 1100px;
@@ -928,8 +933,10 @@ img {
   }
 
   .stat-item {
-    flex: 1;         /* كل عنصر ياخد نفس الحجم */
-    min-width: 25%;  /* يضمن الأربعة يظهروا في صف واحد */
+    flex: 1;
+    /* كل عنصر ياخد نفس الحجم */
+    min-width: 25%;
+    /* يضمن الأربعة يظهروا في صف واحد */
   }
 
   .stat-number {
@@ -953,35 +960,40 @@ img {
 
 .location-image {
   display: flex;
-  justify-content: center; /* يضمن إن الصورة تبقى في النص */
+  justify-content: center;
+  /* يضمن إن الصورة تبقى في النص */
 }
 
 .location-image img {
   width: 100%;
-  max-width: 600px; /* تمنع الصورة من التمدد الزائد */
+  max-width: 600px;
+  /* تمنع الصورة من التمدد الزائد */
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* 📱 موبايل */
 @media (max-width: 768px) {
   .location-section {
-    grid-template-columns: 1fr; /* عمود واحد */
+    grid-template-columns: 1fr;
+    /* عمود واحد */
     text-align: center;
   }
 
- 
+
 
   .location-image {
     justify-content: center;
     margin-top: 20px;
   }
 }
+
 .location-section {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
-.footer-content{
+
+.footer-content {
   color: var(--secondary);
   text-align: center;
   font-size: 18px;
@@ -989,19 +1001,21 @@ img {
 
 
 }
+
 /* ✨ تصميم البوب أب */
 .contact-modal {
   border-radius: 20px;
   padding: 20px 30px;
   background: #fff;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   position: relative;
 }
 
 .contact-modal .btn-close {
   position: absolute;
   top: 15px;
-  left: 15px; /* RTL */
+  left: 15px;
+  /* RTL */
   background: #eee;
   border-radius: 50%;
   padding: 8px;
@@ -1084,30 +1098,48 @@ img {
 
 
 @keyframes fadeInDown {
-  from { opacity: 0; transform: translateY(-20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
 .project-image {
   width: 100%;
-  height: 500px; /* الديسكتوب */
+  height: 500px;
+  /* الديسكتوب */
   overflow: hidden;
 }
 
 .project-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* يخلي الصورة تملأ العرض والارتفاع */
+  object-fit: cover;
+  /* يخلي الصورة تملأ العرض والارتفاع */
 }
 
 /* للشاشات الصغيرة (موبايل) */
 @media (max-width: 768px) {
   .project-image {
-    height: 300px; /* قلل الارتفاع للموبايل */
+    height: 300px;
+    /* قلل الارتفاع للموبايل */
     object-fit: cover;
   }
 }
@@ -1115,7 +1147,8 @@ img {
 /* للشاشات الأصغر (موبايل صغير جدًا) */
 @media (max-width: 480px) {
   .project-image {
-    height: 220px; /* ارتفاع أصغر للـ portrait */
+    height: 220px;
+    /* ارتفاع أصغر للـ portrait */
     object-fit: cover;
 
   }
