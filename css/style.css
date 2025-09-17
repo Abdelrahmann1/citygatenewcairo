@@ -396,7 +396,6 @@ section {
 .featured .project-image {
   flex: 1 !important;
   height: auto;
-  min-width: 50%;
 }
 
 .project-card {
@@ -418,13 +417,13 @@ section {
   /* ياخد كل المساحة المتاحة */
   overflow: hidden;
   border-radius: 5px;
-  height: 200px;
-
+  width: 600px !important; 
+  height: 730px !important; 
+  
 }
 
 .project-image img {
-  width: 100%;
-  height: 100%;
+  height:  100% !important; overflow: hidden;
   object-fit: cover;
   /* يخلي الصورة تغطي كامل المساحة بدون تشويه */
   display: block;
@@ -484,6 +483,11 @@ section {
   .project-features {
     grid-template-columns: 1fr;
     /* عمود واحد في الموبايل */
+  }
+  .project-image {
+    width: 100% !important; 
+    height: 300px !important; 
+    
   }
 }
 
