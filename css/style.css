@@ -41,7 +41,7 @@ body {
   inset: 0;
   z-index: 999999;
   overflow: hidden;
-  background: var(--gradient);
+  background: var(--primary);
   transition: all 0.6s ease-out;
 }
 
